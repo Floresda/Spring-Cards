@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Vacation Spots</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #A6033F;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #465902;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .card-container {
+            margin-top: 25px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-gap: 20px;
+        }
+
+        .card {
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            }
+
+        .card h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+            }
+
+        .card p {
+            font-size: 14px;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            }
+
+        @media screen and (min-width: 600px) {
+            .cards {
+            margin-top: -1em;
+            }
+        
+            .card {
+            flex: 0 1 calc(50% - 0.5em);
+            margin-bottom: 1em;
+            }
+        }
+        @media screen and (min-width: 800px) {
+            .cards {
+            margin-top: inherit;
+            }
+        
+            .card {
+            flex: 0 1 calc(33% - 1em);
+            margin-bottom: 2em;
+            }
+
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1> Vacation Spots</h1>
+</header>
+<div class="card-container">
+    <div class="card" style="background-color: #F83D5C;">
+      <img src="image1.jpg" alt="Indonesia hotel by lake">
+      <h2>Bali, Indonesia</h2>
+      <p>Location: Southeast Asia</p>
+      <p>Experience the enchanting beauty of Bali with its lush landscapes, stunning beaches, and vibrant cultural heritage. From exploring ancient temples to indulging in luxurious resorts, Bali offers a perfect blend of relaxation and adventure.</p>
+    </div>
+    
+    <div class="card" style="background-color: #F968A1;">
+      <img src="image2.jpg" alt="Iceland building view">
+      <h2>Santorini, Greece</h2>
+      <p>Aegean Sea, Greece</p>
+      <p>Discover the captivating charm of Santorini, known for its iconic white-washed buildings, blue-domed churches, and breathtaking sunsets. Explore the narrow streets of the cliffside villages, relax on volcanic beaches, and immerse yourself in the rich history and delicious cuisine of the Greek islands.</p>
+    </div>
+    
+    <div class="card" style="background-color: #FF8847;">
+      <img src="image3.jpg" alt="Maldives resort">
+      <h2>Maldives</h2>
+      <p>Indian Ocean</p>
+      <p>Unwind in the tropical paradise of the Maldives, renowned for its crystal-clear turquoise waters, pristine white sand beaches, and abundant marine life. Dive into world-class snorkeling and diving sites, indulge in luxurious overwater bungalows, and witness stunning sunsets over the Indian Ocean.</p>
+    </div>
+    
+    <div class="card" style="background-color: #BDD380;">
+      <img src="image4.jpg" alt="Bora Bora island">
+      <h2>Bora Bora, French Polynesia</h2>
+      <p>South Pacific</p>
+      <p>Experience the ultimate romantic getaway in Bora Bora, a mesmerizing island known for its turquoise lagoons, vibrant coral reefs, and luxurious resorts. Relax in overwater bungalows, enjoy water sports like snorkeling and jet skiing, and soak in the beauty of this tropical paradise.</p>
+    </div>
+    
+    <div class="card" style="background-color: #5564FF;">
+      <img src="image5.jpg" alt="Iceland town with mountain view">
+      <h2>Reykjavik, Iceland</h2>
+      <p>Northern Europe</p>
+      <p>Explore the unique landscapes of Reykjavik, Iceland's capital city, surrounded by stunning natural wonders like geysers, waterfalls, and volcanic landscapes. Immerse yourself in the world of geothermal spas, witness the mesmerizing Northern Lights, and embark on thrilling glacier hikes or whale-watching tours.</p>
+    </div>
+  </div>
+
+<footer>
+    <p>&copy; 2023 David's Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>
